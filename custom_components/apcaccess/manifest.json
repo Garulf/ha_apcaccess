@@ -1,0 +1,9 @@
+{
+  "domain": "apcaccess",
+  "name": "apcaccess",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Garulf/ha_apcaccess/",
+  "requirements": ["apcaccess==0.0.13"],
+  "codeowners": ["@Garulf"],
+  "iot_class": "local_polling"
+}
