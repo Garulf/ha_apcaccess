@@ -31,11 +31,11 @@ try:
     from homeassistant.const import (
         VOLT,
         ELECTRICAL_CURRENT_AMPERE,
-)
+
 except ImportError:
     from homeassistant.const import ELECTRIC_POTENTIAL_VOLT as VOLT
     from homeassistant.const import ELECTRIC_CURRENT_AMPERE as ELECTRICAL_CURRENT_AMPERE
-)
+
 
 
 import homeassistant.helpers.config_validation as cv
